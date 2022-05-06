@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Distortion Dos Analogue", sans-serif;
+    width: 360px;
+}
+
+.navbar a{
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+p {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Century Gothic", sans-serif;
+}
+header {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#quoteDisplay {
+    font-size: 70px;
+    text-align: center;
+}
+
+#quoteButton {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+@media screen and (min-width: 375px) {
+    body {
+        width: 100%;
+    }
+    .imagecontainer {
+        width: 100%;
+    }
+    img {
+        max-width: 350px;
+    }
+    #quoteDisplay {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 850px){
+    .navbar a {
+        width: 100%;
+        font-size: 70px;
+    }
+    .navbar a:hover {
+        background-color: lightgray;
+    }
+    #quoteDisplay {
+        font-size: 70px;
+        text-align: center;
+    }
+}
